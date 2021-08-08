@@ -9,7 +9,7 @@ length=14
 password= "".join(random.sample(all, length))
 password2=random.sample(all, length)
 
-
 print(password)
+print(type(password))
 
 
